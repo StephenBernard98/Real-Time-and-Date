@@ -138,13 +138,13 @@
             if (myDay == 1 || myDay == 21 || myDay == 31) {
                 myDay += "st"
             }
-           if (myDay == 2 || myDay == 22) {
+           else if (myDay == 2 || myDay == 22) {
                 myDay+= "nd"
             }
-           if (myDay == 3 || myDay == 23) {
+          else if (myDay == 3 || myDay == 23) {
                 myDay+= "rd"
             }
-          if (myDay != 1 || myDay != 21 || myDay != 31 || myDay != 2 || myDay != 22) {
+        else {
                  myDay+= "th"
              }
 
